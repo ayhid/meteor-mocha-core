@@ -7,7 +7,8 @@ Package.describe({
 });
 
 Npm.depends({
-  mocha: '2.4.5'
+  mocha: '2.4.5',
+  'xunit-file': '1.0.0'
 });
 
 Package.onUse(function (api, where) {
